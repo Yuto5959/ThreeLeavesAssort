@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreeLeavesAssort")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+348239d398b9c799f76b5aba823fe714d7ff470b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreeLeavesAssort")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreeLeavesAssort")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
