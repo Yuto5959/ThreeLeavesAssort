@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <None Include="wwwroot\**" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="wwwroot\images\*.jpg" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="wwwroot\images\*.png" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

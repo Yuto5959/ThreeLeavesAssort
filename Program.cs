@@ -24,6 +24,7 @@ app.UseStaticFiles(new StaticFileOptions
     ContentTypeProvider = provider
 });
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
