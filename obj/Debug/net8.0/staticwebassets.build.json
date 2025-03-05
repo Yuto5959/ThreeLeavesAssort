@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "61Z0icN724pAHCkvZUWsZqWNy3CWF263qELerx6AacE=",
+  "Hash": "X9cPebBBFlydhsli37fbP7MWCyE2wM5Mifv9ynE5o04=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Home.PNG",
+      "SourceId": "ThreeLeavesAssort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
+      "BasePath": "_content/ThreeLeavesAssort",
+      "RelativePath": "images/Home#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jm6bbx43p8",
+      "Integrity": "tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Home.PNG"
     },
     {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\TopLogo.PNG",
@@ -1502,6 +1523,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home.jm6bbx43p8.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Home.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jm6bbx43p8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Home.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:14:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ="
         }
       ]
     },

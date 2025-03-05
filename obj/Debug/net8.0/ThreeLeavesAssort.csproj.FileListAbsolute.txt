@@ -95,3 +95,6 @@ C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\lib\jquery\LICENSE.txt
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\TopLogo.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\css\top.css
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\js\top.js
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Home.PNG

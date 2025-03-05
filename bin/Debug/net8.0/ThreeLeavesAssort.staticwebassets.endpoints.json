@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "images/Home.PNG",
+      "AssetFile": "images/Home.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:14:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/Home.jm6bbx43p8.PNG",
+      "AssetFile": "images/Home.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4721"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:14:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jm6bbx43p8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Home.PNG"
+        }
+      ]
+    },
+    {
       "Route": "images/TopLogo.PNG",
       "AssetFile": "images/TopLogo.PNG",
       "Selectors": [],

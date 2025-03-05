@@ -1,8 +1,48 @@
-﻿<!-- ThreeLeavesAssort/Views/Home/Top.cshtml -->
-@{
-    ViewData["Title"] = "ThreeLeavesAssort - トップ";
-    Layout = null;  // デフォルトのレイアウトを無効化
+﻿@{
+    ViewData["Title"] = "ThreeLeavesAssort - トップ画面";
+    Layout = null;
 }
 
-<h2>ThreeLeavesAssortへようこそ</h2>
-<p>認証が完了しました。ここからアプリをご利用いただけます。</p>
+<div class="container">
+    <!-- 左上のロゴとトップ -->
+    <div class="top-header">
+        <img src="~/images/Home.PNG" alt="Home" class="home-icon" />
+        <span class="top-text">トップ</span>
+    </div>
+
+    <!-- ハンバーガーメニュー -->
+    <button class="menu-toggle">≡</button>
+
+    <!-- メニュー（Expand形式） -->
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="#notice">注意事項</a></li>
+            <li><a asp-controller="Home" asp-action="PenName">ペンネーム登録</a></li>
+            <li><a asp-controller="Home" asp-action="Favorites">お気に入り10選</a></li>
+            <li><a href="#origin">元ネタ紹介</a></li>
+            <li><a href="#terms">利用規約</a></li>
+            <li><a href="#help">ヘルプ</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <!-- メインエリア -->
+    <main>
+        <div class="center-panel">
+            <div class="selection-area">
+                <button class="select-btn">単語1</button>
+                <button class="select-btn">単語2</button>
+                <button class="select-btn">単語3</button>
+                <button class="random-btn">ランダム</button>
+            </div>
+            <button class="compose-btn">詠む</button>
+        </div>
+        <div class="command-buttons">
+            <a asp-controller="Home" asp-action="Scrap" class="command-btn">スクラップ帳</a>
+            <a asp-controller="Home" asp-action="Works" class="command-btn">みんなの作品</a>
+        </div>
+    </main>
+</div>
+
+<script src="~/js/top.js"></script>
+<link rel="stylesheet" href="~/css/top.css" />
