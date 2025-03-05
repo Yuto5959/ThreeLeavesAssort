@@ -1,19 +1,32 @@
-﻿// メニュー開閉
-document.querySelector('.menu-toggle').addEventListener('click', () => {
-    document.getElementById('menu').classList.toggle('active');
-});
+﻿document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    const modalLinks = document.querySelectorAll('.modal-link');
+    const closeModals = document.querySelectorAll('.close-modal');
+    const modals = document.querySelectorAll('.modal');
 
-// モーダル開閉
-document.querySelectorAll('.modal-link').forEach(link => {
-    link.addEventListener('click', (e) => {
-        e.preventDefault();
-        const modalId = link.getAttribute('data-modal') + '-modal';
-        document.getElementById(modalId).classList.add('active');
+    menuToggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
     });
-});
 
-document.querySelectorAll('.close-modal').forEach(button => {
-    button.addEventListener('click', () => {
-        button.closest('.modal').classList.remove('active');
+    modalLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const modalId = link.getAttribute('data-modal');
+            document.getElementById(`${modalId}-modal`).classList.add('active');
+        });
+    });
+
+    closeModals.forEach(closeBtn => {
+        closeBtn.addEventListener('click', () => {
+            modals.forEach(modal => modal.classList.remove('active'));
+        });
+    });
+
+    // モーダル外クリックで閉じる
+    window.addEventListener('click', (e) => {
+        if (!e.target.closest('.modal-content') && !e.target.closest('.modal-link')) {
+            modals.forEach(modal => modal.classList.remove('active'));
+        }
     });
 });
