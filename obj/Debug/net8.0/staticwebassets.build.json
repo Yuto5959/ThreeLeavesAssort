@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2BlxgfJhP3/rO4YHB1hXvfdr1eZejtZ8tL3kigFVUHU=",
+  "Hash": "qmFz5Ez9GGtv3IPzilk7ItDjzY4nkEtRY8a5V82mKDk=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -122,12 +122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.PNG",
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
       "SourceId": "ThreeLeavesAssort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
       "BasePath": "_content/ThreeLeavesAssort",
-      "RelativePath": "images/logo#[.{fingerprint}]?.PNG",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -140,7 +140,7 @@
       "Integrity": "I03+aB6nKtdoDR7oidu76TeAYg+xNesvcgtfzm4KJRA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.PNG"
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\js\\site.js",
@@ -1609,8 +1609,8 @@
       ]
     },
     {
-      "Route": "images/logo.nrcqm972e5.PNG",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.PNG",
+      "Route": "images/logo.nrcqm972e5.png",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1645,7 +1645,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo.PNG"
+          "Value": "images/logo.png"
         },
         {
           "Name": "integrity",
@@ -1654,8 +1654,8 @@
       ]
     },
     {
-      "Route": "images/logo.PNG",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.PNG",
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
