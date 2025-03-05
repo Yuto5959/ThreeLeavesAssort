@@ -1,0 +1,28 @@
+﻿<!-- ThreeLeavesAssort/Views/Home/Index.cshtml -->
+@{
+    ViewData["Title"] = "ThreeLeavesAssort";
+    Layout = null;  // デフォルトのレイアウトを無効化
+}
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/index.css" />
+</head>
+<body>
+    <div class="container">
+        <img src="~/images/logo.png" alt="ThreeLeavesAssort Logo" class="logo" />
+        <form method="post" action="/Home/Authenticate">
+            <input type="password" name="Passcode" class="input-field" placeholder="認証コード" required />
+            <button type="submit" class="start-button">開始</button>
+        </form>
+        @if (ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+    </div>
+</body>
+</html>
