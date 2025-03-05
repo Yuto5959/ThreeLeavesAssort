@@ -6,17 +6,17 @@ namespace ThreeLeavesAssort.Controllers
 {
     public class HomeController : Controller
     {
-        // ƒCƒ“ƒfƒbƒNƒX‰æ–Ê
+        // ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ç”»é¢
         public IActionResult Index()
         {
             return View();
         }
 
-        // ”FØˆ—
+        // èªè¨¼å‡¦ç†
         [HttpPost]
         public IActionResult Authenticate(AuthModel model)
         {
-            // ŠÂ‹«•Ï”‚©‚çƒpƒXƒR[ƒh‚ğæ“¾
+            // ç’°å¢ƒå¤‰æ•°ã‹ã‚‰ãƒ‘ã‚¹ã‚³ãƒ¼ãƒ‰ã‚’å–å¾—
             string validPasscode = Environment.GetEnvironmentVariable("PASSCODE");
 
             if (model.Passcode == validPasscode)
@@ -24,11 +24,11 @@ namespace ThreeLeavesAssort.Controllers
                 return RedirectToAction("Top");
             }
 
-            ViewBag.Error = "ƒpƒXƒR[ƒh‚ª³‚µ‚­‚ ‚è‚Ü‚¹‚ñ";
+            ViewBag.Error = "ãƒ‘ã‚¹ã‚³ãƒ¼ãƒ‰ãŒæ­£ã—ãã‚ã‚Šã¾ã›ã‚“";
             return View("Index");
         }
 
-        // ƒgƒbƒv‰æ–Ê
+        // ãƒˆãƒƒãƒ—ç”»é¢
         public IActionResult Top()
         {
             return View();
