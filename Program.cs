@@ -24,6 +24,12 @@ app.UseStaticFiles(new StaticFileOptions
     ContentTypeProvider = provider
 });
 
+//•¶ŽšƒR[ƒh‘Î‰ž
+app.Use(async (context, next) =>
+{
+    context.Response.Headers["Content-Type"] = "text/html; charset=UTF-8";
+    await next();
+});
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
