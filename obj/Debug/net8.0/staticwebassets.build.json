@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qmFz5Ez9GGtv3IPzilk7ItDjzY4nkEtRY8a5V82mKDk=",
+  "Hash": "61Z0icN724pAHCkvZUWsZqWNy3CWF263qELerx6AacE=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gtqqaw5m60",
-      "Integrity": "vFsNR8Co46aHjZq2k80f76x4S8PlTW7wB49N+3AX0bc=",
+      "Fingerprint": "jdw3u28xwg",
+      "Integrity": "WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -101,33 +101,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\TopLogo.PNG",
       "SourceId": "ThreeLeavesAssort",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
       "BasePath": "_content/ThreeLeavesAssort",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
-      "SourceId": "ThreeLeavesAssort",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
-      "BasePath": "_content/ThreeLeavesAssort",
-      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "RelativePath": "images/TopLogo#[.{fingerprint}]?.PNG",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -140,7 +119,7 @@
       "Integrity": "I03+aB6nKtdoDR7oidu76TeAYg+xNesvcgtfzm4KJRA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\TopLogo.PNG"
     },
     {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\js\\site.js",
@@ -1373,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1247"
+          "Value": "2360"
         },
         {
           "Name": "Content-Type",
@@ -1381,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vFsNR8Co46aHjZq2k80f76x4S8PlTW7wB49N+3AX0bc=\""
+          "Value": "\"WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 04:00:27 GMT"
+          "Value": "Wed, 05 Mar 2025 09:49:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1395,12 +1374,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vFsNR8Co46aHjZq2k80f76x4S8PlTW7wB49N+3AX0bc="
+          "Value": "sha256-WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I="
         }
       ]
     },
     {
-      "Route": "css/index.gtqqaw5m60.css",
+      "Route": "css/index.jdw3u28xwg.css",
       "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1410,7 +1389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1247"
+          "Value": "2360"
         },
         {
           "Name": "Content-Type",
@@ -1418,11 +1397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vFsNR8Co46aHjZq2k80f76x4S8PlTW7wB49N+3AX0bc=\""
+          "Value": "\"WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 04:00:27 GMT"
+          "Value": "Wed, 05 Mar 2025 09:49:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1432,7 +1411,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gtqqaw5m60"
+          "Value": "jdw3u28xwg"
         },
         {
           "Name": "label",
@@ -1440,7 +1419,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vFsNR8Co46aHjZq2k80f76x4S8PlTW7wB49N+3AX0bc="
+          "Value": "sha256-WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I="
         }
       ]
     },
@@ -1527,90 +1506,8 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:48:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "61n19gt1b8"
-        },
-        {
-          "Name": "label",
-          "Value": "favicon.ico"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\favicon.ico",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5430"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/x-icon"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:48:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "images/logo.nrcqm972e5.png",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
+      "Route": "images/TopLogo.nrcqm972e5.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\TopLogo.PNG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1645,7 +1542,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/logo.png"
+          "Value": "images/TopLogo.PNG"
         },
         {
           "Name": "integrity",
@@ -1654,8 +1551,8 @@
       ]
     },
     {
-      "Route": "images/logo.png",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\logo.png",
+      "Route": "images/TopLogo.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\TopLogo.PNG",
       "Selectors": [],
       "ResponseHeaders": [
         {

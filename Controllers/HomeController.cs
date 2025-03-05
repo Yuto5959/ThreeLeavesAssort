@@ -24,7 +24,7 @@ namespace ThreeLeavesAssort.Controllers
                 return RedirectToAction("Top");
             }
 
-            ViewBag.Error = "パスコードが正しくありません";
+            ViewBag.Error = "認証コードが正しくありません";
             return View("Index");
         }
 

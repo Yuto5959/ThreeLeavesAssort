@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #1B5E20; /* ダークグリーンでクールなベース */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,8 @@ body {
     width: 100%;
     max-width: 600px;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05); /* 微透明でモダンな雰囲気 */
+    border-radius: 10px;
 }
 
 .logo {
@@ -32,18 +34,26 @@ body {
     width: 80%;
     padding: 15px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid #546E7A; /* スモーキーグレーでクールな枠線 */
     border-radius: 5px;
     margin-bottom: 15px;
     box-sizing: border-box;
+    background-color: #81C784; /* ライトグリーンで柔らかさと遊び心 */
+    color: #1B5E20; /* ダークグリーンでコントラスト */
+    transition: border-color 0.3s;
 }
+
+    .input-field:focus {
+        border-color: #FFCA28; /* イエローでポップなアクセント */
+        outline: none;
+    }
 
 .start-button {
     width: 80%;
     padding: 15px;
     font-size: 18px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFCA28; /* ブライトイエローでポップかつ目立つ */
+    color: #1B5E20; /* ダークグリーンで読みやすく */
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -51,13 +61,19 @@ body {
 }
 
     .start-button:hover {
-        background-color: #45a049;
+        background-color: #81C784; /* ライトグリーンでホバー時に柔らかく変化 */
+        color: #1B5E20;
     }
 
-.error {
-    color: red;
-    font-size: 16px;
-    margin-top: 10px;
+.error-box {
+    color: #FF7043; /* コーラルでポップかつ目立つ */
+    font-size: 18px; /* 少し大きくして視認性アップ */
+    font-weight: bold; /* 太字で強調 */
+    margin-top: 15px;
+    padding: 10px 15px; /* 余白でボックス感を */
+    background-color: #E0E0E0;
+    border-radius: 5px; /* 角丸でモダンに */
+    border: 1px solid #FF7043; /* コーラルの枠線で統一感 */
 }
 
 @media only screen and (max-width: 600px) {
