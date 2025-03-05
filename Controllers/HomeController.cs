@@ -28,10 +28,24 @@ namespace ThreeLeavesAssort.Controllers
             return View("Index");
         }
 
-        // トップ画面
         public IActionResult Top()
         {
             return View();
+        }
+
+        public IActionResult Favorites()
+        {
+            // お気に入り10選のデータ（仮にリストを返す）
+            var favorites = new List<string> { "お気に入り1", "お気に入り2" }; // 仮データ
+            return View(favorites);
+        }
+
+        [HttpPost]
+        public IActionResult SetPenName(string penName)
+        {
+            // ペンネームを保存（仮にセッションに保存）
+            HttpContext.Session.SetString("PenName", penName);
+            return RedirectToAction("Top");
         }
     }
 }
