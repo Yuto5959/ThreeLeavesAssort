@@ -98,3 +98,6 @@ C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\css\top.css
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\js\top.js
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Home.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Forum.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\ScrapBook.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Random.PNG

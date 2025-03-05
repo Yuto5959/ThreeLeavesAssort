@@ -35,7 +35,7 @@ body {
 }
 
 .home-icon {
-    width: 24px; /* 小さめ */
+    width: 24px;
     height: 24px;
 }
 
@@ -133,20 +133,25 @@ main {
     }
 
 .random-btn {
-    padding: 5px 10px;
-    background: #ccc;
-    color: #666;
+    padding: 5px; /* 画像周りに少し余白 */
+    background: none;
     border: none;
-    border-radius: 3px;
-    font-size: 12px;
     cursor: pointer;
     align-self: center;
-    transition: background 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* 薄い影 */
+    border-radius: 50%; /* 丸みで柔らかく */
+    transition: transform 0.2s ease-in-out; /* アニメーション */
 }
 
     .random-btn:hover {
-        background: #bbb;
+        transform: rotate(15deg) scale(1.1); /* ホバーで回転と微拡大 */
     }
+
+.random-icon {
+    width: 16px;
+    height: 16px;
+    display: block; /* 画像をブロック要素に */
+}
 
 .compose-btn {
     padding: 15px 30px;
@@ -173,7 +178,7 @@ main {
 
 .command-btn {
     flex: 1;
-    padding: 15px;
+    padding: 10px;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -183,8 +188,17 @@ main {
     color: #333;
     text-align: center;
     transition: transform 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
     .command-btn:hover {
         transform: scale(1.05);
     }
+
+.command-icon {
+    width: 20px;
+    height: 20px;
+}

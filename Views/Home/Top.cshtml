@@ -30,16 +30,24 @@
     <main>
         <div class="center-panel">
             <div class="selection-area">
-                <button class="select-btn">単語1</button>
-                <button class="select-btn">単語2</button>
-                <button class="select-btn">単語3</button>
-                <button class="random-btn">ランダム</button>
+                <button class="select-btn">上の句</button>
+                <button class="select-btn">中の句</button>
+                <button class="select-btn">下の句</button>
+                <button class="random-btn" title="ランダム選択">
+                    <img src="~/images/Random.PNG" alt="Random" class="random-icon" />
+                </button>
             </div>
             <button class="compose-btn">詠む</button>
         </div>
         <div class="command-buttons">
-            <a asp-controller="Home" asp-action="Scrap" class="command-btn">スクラップ帳</a>
-            <a asp-controller="Home" asp-action="Works" class="command-btn">みんなの作品</a>
+            <a asp-controller="Home" asp-action="Scrap" class="command-btn">
+                <img src="~/images/ScrapBook.PNG" alt="ScrapBook" class="command-icon" />
+                <span>スクラップ帳</span>
+            </a>
+            <a asp-controller="Home" asp-action="Works" class="command-btn">
+                <img src="~/images/Forum.PNG" alt="Forum" class="command-icon" />
+                <span>みんなの作品</span>
+            </a>
         </div>
     </main>
 </div>

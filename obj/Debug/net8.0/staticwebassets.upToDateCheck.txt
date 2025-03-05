@@ -1,6 +1,9 @@
 wwwroot\css\index.css
 wwwroot\css\site.css
+wwwroot\images\Forum.PNG
 wwwroot\images\Home.PNG
+wwwroot\images\Random.PNG
+wwwroot\images\ScrapBook.PNG
 wwwroot\images\TopLogo.PNG
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
