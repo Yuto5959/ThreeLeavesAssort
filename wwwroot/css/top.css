@@ -24,7 +24,7 @@ body {
     background: #f5f5e6;
     display: flex;
     align-items: center;
-    justify-content: center; /* アプリ名を中央に */
+    justify-content: center;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -33,7 +33,7 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
-    text-align: center; /* 中央揃えを補強 */
+    text-align: center;
 }
 
 .app-logo {
@@ -49,7 +49,7 @@ body {
 /* ハンバーガーメニュー（左上固定） */
 .menu-toggle {
     position: absolute;
-    left: 10px; /* 左上に固定 */
+    left: 10px;
     background: none;
     border: none;
     font-size: 20px;
@@ -58,17 +58,17 @@ body {
     z-index: 1001;
 }
 
-/* メニュー（左上に展開） */
+/* メニュー（左上に展開、スマホ向けに大きく） */
 .menu {
     display: none;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 0 0 5px 5px;
     position: absolute;
-    top: 40px; /* トグルボタンの下 */
-    left: 10px; /* 左に固定 */
-    width: 180px;
-    padding: 8px;
+    top: 40px;
+    left: 10px;
+    width: 200px; /* スマホで少し広げる */
+    padding: 12px; /* パディングを増やす */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
@@ -82,19 +82,21 @@ body {
     }
 
         .menu ul li {
-            margin: 10px 0;
+            margin: 12px 0; /* アイテム間の間隔を増やす */
         }
 
             .menu ul li a {
                 text-decoration: none;
                 color: #333;
-                font-size: 14px;
+                font-size: 16px; /* フォントサイズを大きく */
+                display: block; /* タップ範囲を広く */
+                padding: 5px 10px; /* タップしやすいように */
             }
 
 /* コンテナ（ヘッダーの下に配置） */
 .container {
     width: 100%;
-    padding: 60px 10px 10px; /* ヘッダーの高さを考慮 */
+    padding: 60px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +126,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* 以下は元のスタイルを維持 */
+/* 以下は元のスタイルを維持（省略可） */
 .selection-area {
     display: flex;
     flex-direction: column;
@@ -241,13 +243,18 @@ main {
     .menu {
         top: 50px;
         left: 20px;
-        width: 200px;
-        padding: 10px;
+        width: 220px; /* デスクトップでも少し広め */
+        padding: 15px;
     }
 
-        .menu ul li a {
-            font-size: 16px;
+        .menu ul li {
+            margin: 15px 0;
         }
+
+            .menu ul li a {
+                font-size: 18px;
+                padding: 8px 12px;
+            }
 
     main {
         padding: 20px;
