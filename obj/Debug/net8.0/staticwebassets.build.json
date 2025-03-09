@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B5aQFjtKj1JAPa7k70HXyJXPUZEV974lurNKJgjbMO4=",
+  "Hash": "aPxS1EHZimhdvPBGdfBQcmRezrzfKfrho3o5z8k8eck=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\AppImage.PNG",
+      "SourceId": "ThreeLeavesAssort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
+      "BasePath": "_content/ThreeLeavesAssort",
+      "RelativePath": "images/AppImage#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mcfpgzn3fq",
+      "Integrity": "Cjqz6Jg0UBGuILJu8iTgwICrO8rNliKVh57GtW7xLWw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\AppImage.PNG"
     },
     {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Forum.PNG",
@@ -1530,7 +1551,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:48:36 GMT"
+          "Value": "Sun, 09 Mar 2025 04:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1575,7 +1596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:48:36 GMT"
+          "Value": "Sun, 09 Mar 2025 04:55:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1586,6 +1607,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
+      "Route": "images/AppImage.mcfpgzn3fq.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\AppImage.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cjqz6Jg0UBGuILJu8iTgwICrO8rNliKVh57GtW7xLWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:28:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcfpgzn3fq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/AppImage.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cjqz6Jg0UBGuILJu8iTgwICrO8rNliKVh57GtW7xLWw="
+        }
+      ]
+    },
+    {
+      "Route": "images/AppImage.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\AppImage.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cjqz6Jg0UBGuILJu8iTgwICrO8rNliKVh57GtW7xLWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 04:28:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cjqz6Jg0UBGuILJu8iTgwICrO8rNliKVh57GtW7xLWw="
         }
       ]
     },
@@ -6778,7 +6881,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:54:40 GMT"
+          "Value": "Fri, 07 Mar 2025 09:48:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6823,7 +6926,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:54:40 GMT"
+          "Value": "Fri, 07 Mar 2025 09:48:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6868,7 +6971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:54:40 GMT"
+          "Value": "Fri, 07 Mar 2025 09:48:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6905,7 +7008,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 03:54:40 GMT"
+          "Value": "Fri, 07 Mar 2025 09:48:22 GMT"
         },
         {
           "Name": "Cache-Control",

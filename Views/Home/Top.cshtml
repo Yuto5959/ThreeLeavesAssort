@@ -1,56 +1,36 @@
 ﻿@{
     ViewData["Title"] = "ThreeLeavesAssort - トップ画面";
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="container">
-    <!-- 左上のロゴとトップ -->
-    <div class="top-header">
-        <img src="~/images/Home.PNG" alt="Home" class="home-icon" />
-        <span class="top-text">トップ</span>
+<main>
+    <div class="center-panel">
+        <div class="selection-area">
+            <button class="select-btn">上の句</button>
+            <button class="select-btn">中の句</button>
+            <button class="select-btn">下の句</button>
+            <button class="random-btn" title="ランダム選択">
+                <img src="~/images/Random.PNG" alt="Random" class="random-icon" />
+            </button>
+        </div>
+        <button class="compose-btn">詠む</button>
     </div>
+    <div class="command-buttons">
+        <a asp-controller="Home" asp-action="Scrap" class="command-btn">
+            <img src="~/images/ScrapBook.PNG" alt="ScrapBook" class="command-icon" />
+            <span>スクラップ帳</span>
+        </a>
+        <a asp-controller="Home" asp-action="Works" class="command-btn">
+            <img src="~/images/Forum.PNG" alt="Forum" class="command-icon" />
+            <span>みんなの作品</span>
+        </a>
+    </div>
+</main>
 
-    <!-- ハンバーガーメニュー -->
-    <button class="menu-toggle">≡</button>
+@section Styles {
+    <link rel="stylesheet" href="~/css/top.css" />
+}
 
-    <!-- メニュー（Expand形式） -->
-    <nav class="menu" id="menu">
-        <ul>
-            <li><a href="#notice">注意事項</a></li>
-            <li><a asp-controller="Home" asp-action="PenName">ペンネーム登録</a></li>
-            <li><a asp-controller="Home" asp-action="Favorites">お気に入り10選</a></li>
-            <li><a href="#origin">元ネタ紹介</a></li>
-            <li><a href="#terms">利用規約</a></li>
-            <li><a href="#help">ヘルプ</a></li>
-            <li><a asp-controller="Home" asp-action="Contact">お問い合わせ</a></li>
-        </ul>
-    </nav>
-
-    <!-- メインエリア -->
-    <main>
-        <div class="center-panel">
-            <div class="selection-area">
-                <button class="select-btn">上の句</button>
-                <button class="select-btn">中の句</button>
-                <button class="select-btn">下の句</button>
-                <button class="random-btn" title="ランダム選択">
-                    <img src="~/images/Random.PNG" alt="Random" class="random-icon" />
-                </button>
-            </div>
-            <button class="compose-btn">詠む</button>
-        </div>
-        <div class="command-buttons">
-            <a asp-controller="Home" asp-action="Scrap" class="command-btn">
-                <img src="~/images/ScrapBook.PNG" alt="ScrapBook" class="command-icon" />
-                <span>スクラップ帳</span>
-            </a>
-            <a asp-controller="Home" asp-action="Works" class="command-btn">
-                <img src="~/images/Forum.PNG" alt="Forum" class="command-icon" />
-                <span>みんなの作品</span>
-            </a>
-        </div>
-    </main>
-</div>
-
-<script src="~/js/top.js"></script>
-<link rel="stylesheet" href="~/css/top.css" />
+@section Scripts {
+    <script src="~/js/top.js"></script>
+}

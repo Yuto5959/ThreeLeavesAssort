@@ -1,20 +1,20 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="~/css/top.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Styles", required: false)
 </head>
 <body>
-    <div class="container">
-        <!-- ヘッダー -->
-        <header>
-            <div class="logo">ThreeLeavesAssort</div>
-            <button class="menu-toggle">≡</button>
-        </header>
-
-        <!-- メニュー（Expand形式） -->
+    <!-- アプリ名とロゴの共通ヘッダー（上部固定） -->
+    <header class="app-header">
+        <button class="menu-toggle">≡</button>
+        <div class="app-title-area">
+            <img src="~/images/AppImage.PNG" alt="App Logo" class="app-logo" />
+            <span class="app-title">ことのはつづり</span>
+        </div>
         <nav class="menu" id="menu">
             <ul>
                 <li><a href="#notice">注意事項</a></li>
@@ -26,20 +26,13 @@
                 <li><a asp-controller="Home" asp-action="Contact">お問い合わせ</a></li>
             </ul>
         </nav>
+    </header>
 
-        <!-- コンテンツ -->
+    <div class="container">
         @RenderBody()
-
-        <!-- フッター（ナビゲーションバー） -->
-        <footer>
-            <nav class="nav-bar">
-                <a asp-controller="Home" asp-action="Top" class="active">トップ</a>
-                <a asp-controller="Home" asp-action="Scrap">スクラップ帳</a>
-                <a asp-controller="Home" asp-action="Works">みんなの作品</a>
-            </nav>
-        </footer>
     </div>
 
-    <script src="~/js/top.js"></script>
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

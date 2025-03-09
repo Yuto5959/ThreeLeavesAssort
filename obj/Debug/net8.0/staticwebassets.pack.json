@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\AppImage.PNG",
+      "PackagePath": "staticwebassets\\images\\AppImage.PNG"
+    },
+    {
       "Id": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Forum.PNG",
       "PackagePath": "staticwebassets\\images\\Forum.PNG"
     },
