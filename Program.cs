@@ -1,10 +1,31 @@
 // ThreeLeavesAssort/Program.cs
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.Data.Sqlite;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// データベース初期化
+using (var connection = new SqliteConnection("Data Source=scrap.db"))
+{
+    connection.Open();
+    var command = connection.CreateCommand();
+    command.CommandText = @"
+        CREATE TABLE IF NOT EXISTS Scraps (
+            Id TEXT PRIMARY KEY,
+            Text TEXT NOT NULL,
+            Length INTEGER NOT NULL,
+            Font TEXT NOT NULL,
+            FgColor TEXT NOT NULL,
+            BgColor TEXT NOT NULL,
+            IsVertical INTEGER NOT NULL
+        )";
+    command.ExecuteNonQuery();
+    connection.Close();
+}
+
 // コントローラーとビューを追加
 builder.Services.AddControllersWithViews();
+builder.Services.AddSession();
 
 var app = builder.Build();
 

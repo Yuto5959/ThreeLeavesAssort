@@ -11,9 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\scrap.css" />
     <Content Remove="wwwroot\css\top.css" />
     <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\js\scrap.js" />
     <Content Remove="wwwroot\js\top.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.2" />
   </ItemGroup>
 
 </Project>
