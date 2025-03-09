@@ -3,6 +3,25 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<header class="app-header">
+    <button class="menu-toggle">≡</button>
+    <div class="app-title-area">
+        <img src="~/images/AppImage.PNG" alt="App Logo" class="app-logo" />
+        <span class="app-title">ことのはつづり</span>
+    </div>
+    <nav class="menu" id="menu">
+        <ul>
+            <li><a href="#" data-modal="notice">注意事項</a></li>
+            <li><a href="#" data-modal="penName">ペンネーム登録</a></li>
+            <li><a asp-controller="Home" asp-action="Favorites">お気に入り10選</a></li>
+            <li><a asp-controller="Home" asp-action="Source">元ネタ紹介</a></li>
+            <li><a asp-controller="Home" asp-action="Terms">利用規約</a></li>
+            <li><a href="#help">ヘルプ</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+</header>
+
 <main>
     <div class="center-panel">
         <div class="selection-area">
@@ -26,6 +45,36 @@
         </a>
     </div>
 </main>
+
+<!-- 既存の注意事項モーダル -->
+<div class="modal" id="noticeModal">
+    <div class="modal-content">
+        <span class="close-modal">×</span>
+        <h2>注意事項</h2>
+        <p>「ことのはつづり」をご利用いただく前に、以下の点をご確認ください。</p>
+        <ul>
+            <li>投稿内容は自身が作成したもの、または使用許可を得たものに限ります。</li>
+            <li>公序良俗に反する内容や他者を誹謗中傷する投稿は禁止です。</li>
+            <li>投稿に関する責任は投稿者が負います。運営は一切責任を負いません。</li>
+        </ul>
+        <p><a asp-controller="Home" asp-action="Terms">詳細は利用規約へ</a></p>
+    </div>
+</div>
+
+<!-- ペンネーム設定モーダル -->
+<div class="modal" id="penNameModal">
+    <div class="modal-content">
+        <span class="close-modal">×</span>
+        <h2>ペンネーム登録</h2>
+        <p>ペンネームを入力してください。</p>
+        <p class="note">（最大8文字）</p>
+        <input type="text" id="penNameInput" class="pen-name-input" value="無名" maxlength="8" />
+        <div class="modal-actions">
+            <button class="compose-btn modal-btn" id="setPenNameBtn">設定</button>
+            <button class="compose-btn modal-btn cancel-btn" id="cancelPenNameBtn">キャンセル</button>
+        </div>
+    </div>
+</div>
 
 @section Styles {
     <link rel="stylesheet" href="~/css/top.css" />

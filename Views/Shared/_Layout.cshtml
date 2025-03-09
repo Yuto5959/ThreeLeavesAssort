@@ -8,24 +8,11 @@
     @RenderSection("Styles", required: false)
 </head>
 <body>
-    <!-- アプリ名とロゴの共通ヘッダー（上部固定） -->
     <header class="app-header">
-        <button class="menu-toggle">≡</button>
         <div class="app-title-area">
             <img src="~/images/AppImage.PNG" alt="App Logo" class="app-logo" />
             <span class="app-title">ことのはつづり</span>
         </div>
-        <nav class="menu" id="menu">
-            <ul>
-                <li><a href="#notice">注意事項</a></li>
-                <li><a asp-controller="Home" asp-action="PenName">ペンネーム登録</a></li>
-                <li><a asp-controller="Home" asp-action="Favorites">お気に入り10選</a></li>
-                <li><a href="#origin">元ネタ紹介</a></li>
-                <li><a href="#terms">利用規約</a></li>
-                <li><a href="#help">ヘルプ</a></li>
-                <li><a asp-controller="Home" asp-action="Contact">お問い合わせ</a></li>
-            </ul>
-        </nav>
     </header>
 
     <div class="container">

@@ -33,6 +33,15 @@ namespace ThreeLeavesAssort.Controllers
             return View();
         }
 
+        public IActionResult Terms()
+        {
+            return View();
+        }
+        public IActionResult Source()
+        {
+            return View();
+        }
+
         public IActionResult Favorites()
         {
             // お気に入り10選のデータ（仮にリストを返す）

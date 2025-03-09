@@ -67,8 +67,8 @@ body {
     position: absolute;
     top: 40px;
     left: 10px;
-    width: 200px; /* スマホで少し広げる */
-    padding: 12px; /* パディングを増やす */
+    width: 200px;
+    padding: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
@@ -82,15 +82,15 @@ body {
     }
 
         .menu ul li {
-            margin: 12px 0; /* アイテム間の間隔を増やす */
+            margin: 12px 0;
         }
 
             .menu ul li a {
                 text-decoration: none;
                 color: #333;
-                font-size: 16px; /* フォントサイズを大きく */
-                display: block; /* タップ範囲を広く */
-                padding: 5px 10px; /* タップしやすいように */
+                font-size: 16px;
+                display: block;
+                padding: 5px 10px;
             }
 
 /* コンテナ（ヘッダーの下に配置） */
@@ -217,6 +217,257 @@ main {
     height: 18px;
 }
 
+/* モーダル */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+    .modal.active {
+        display: flex;
+    }
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.modal-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.modal-content .note {
+    font-size: 12px;
+    color: #666;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.modal-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+    .modal-content ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+.modal-content a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+    .modal-content a:hover {
+        text-decoration: underline;
+    }
+
+.pen-name-input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.modal-btn {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+    .modal-btn:hover {
+        transform: scale(1.05);
+    }
+
+.cancel-btn {
+    background: #f0f0f0;
+    color: #333;
+}
+
+    .cancel-btn:hover {
+        background: #e0e0e0;
+        transform: scale(1.05);
+    }
+
+/* 利用規約ページ */
+.terms-page {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .terms-page h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .terms-page .last-updated {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .terms-page section {
+        margin-bottom: 20px;
+    }
+
+    .terms-page h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    .terms-page p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .terms-page ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+
+        .terms-page ul li {
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+
+    .terms-page footer {
+        text-align: center;
+        font-size: 12px;
+        color: #666;
+        margin-top: 20px;
+    }
+
+/* TOPに戻るボタン専用スタイル */
+.return-btn {
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+/* Sourceページ */
+.source-page {
+    padding: 20px;
+}
+
+    .source-page .content {
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .source-page h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .source-page h2 {
+        font-size: 18px;
+        margin: 20px 0 10px;
+        color: #333;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+
+    .source-page .summary {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .source-page .details {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #333;
+        padding: 10px;
+        background: #f9f9f9;
+        border-radius: 5px;
+    }
+
+    .source-page .toggle-btn {
+        padding: 8px 15px;
+        background: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background 0.2s;
+        margin-bottom: 10px;
+    }
+
+        .source-page .toggle-btn:hover {
+            background: #e0e0e0;
+        }
+
+    .source-page a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+
+        .source-page a:hover {
+            text-decoration: underline;
+        }
+
 /* メディアクエリ */
 @media (min-width: 768px) {
     body {
@@ -243,7 +494,7 @@ main {
     .menu {
         top: 50px;
         left: 20px;
-        width: 220px; /* デスクトップでも少し広め */
+        width: 220px;
         padding: 15px;
     }
 
@@ -301,5 +552,90 @@ main {
     .command-icon {
         width: 20px;
         height: 20px;
+    }
+
+    .modal-content {
+        padding: 25px;
+        max-width: 350px;
+    }
+
+    .close-modal {
+        font-size: 28px;
+    }
+
+    .modal-content h2 {
+        font-size: 22px;
+    }
+
+    .modal-content p, .modal-content ul li {
+        font-size: 16px;
+    }
+
+    .modal-content .note {
+        font-size: 14px;
+    }
+
+    .pen-name-input {
+        padding: 10px;
+        font-size: 16px;
+        max-width: 250px;
+    }
+
+    .modal-btn {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .terms-page h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .terms-page .last-updated {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .terms-page h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .terms-page p, .terms-page ul li {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .terms-page section {
+        margin-bottom: 30px;
+    }
+
+    .terms-page footer {
+        font-size: 14px;
+        margin-top: 30px;
+    }
+
+    .source-page .content {
+        padding: 30px;
+    }
+
+    .source-page h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .source-page h2 {
+        font-size: 20px;
+        margin: 25px 0 15px;
+    }
+
+    .source-page .summary, .source-page .details {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .source-page .toggle-btn {
+        padding: 10px 20px;
+        font-size: 16px;
     }
 }

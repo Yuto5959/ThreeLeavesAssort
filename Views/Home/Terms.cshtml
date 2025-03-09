@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "ことのはつづり 利用規約";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="terms-page">
+    <h1>ことのはつづり 利用規約</h1>
+    <p class="last-updated">最終改定日: 2025年3月3日</p>
+
+    <section>
+        <h2>適用</h2>
+        <p>本利用規約は、「ことのはつづり」（以下「本サービス」）を利用するすべての方（以下「利用者」）に適用されます。</p>
+    </section>
+
+    <section>
+        <h2>サービス内容</h2>
+        <p>本サービスは、個人開発者Yutoが提供する無償の川柳創作・共有Webアプリです。本サービスは「コラージュ川柳」の二次創作であり、公式コンテンツとは一切関係ありません。</p>
+    </section>
+
+    <section>
+        <h2>利用条件</h2>
+        <p>本サービスは誰でも利用できますが、13歳未満の方は保護者の同意が必要です。</p>
+    </section>
+
+    <section>
+        <h2>禁止事項</h2>
+        <p>利用者は以下の行為を禁止します：</p>
+        <ul>
+            <li>本サービスの不正利用</li>
+            <li>他者の権利を侵害する行為（著作権、プライバシーなど）</li>
+            <li>個人情報（氏名、住所、電話番号、メールアドレスなど）の投稿</li>
+            <li>スパムや有害コンテンツの投稿</li>
+            <li>本サービスのソースコードのリバースエンジニアリング、逆コンパイル、逆アセンブル、その他の解析行為</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>免責事項</h2>
+        <p>本サービスは「現状有姿」で提供され、開発者は動作保証や利用により生じた損害に対する責任を負いません。本サービスが二次創作である性質上、公式コンテンツとの関連を主張する権利を開発者は有しません。</p>
+    </section>
+
+    <section>
+        <h2>データ管理</h2>
+        <p>本サービスは利用者のブラウザにデータを保存します（LocalStorage使用）。サーバーへの個人情報送信はありません。</p>
+    </section>
+
+    <section>
+        <h2>著作権</h2>
+        <p>本サービスのデザインやコードに関する著作権は開発者に帰属します。利用者が投稿した川柳の権利は利用者に帰属しますが、本サービス内で公開された場合、閲覧や共有されることに同意したものとみなされます。</p>
+    </section>
+
+    <section>
+        <h2>サービス変更</h2>
+        <p>開発者は予告なく本サービスを変更・終了する権利を有します。</p>
+    </section>
+
+    <section>
+        <h2>準拠法</h2>
+        <p>本規約は日本法に準拠し、紛争は東京地方裁判所で解決します。</p>
+    </section>
+
+    <section>
+        <h2>改定</h2>
+        <p>本規約は必要に応じて改定され、改定内容は公開時に有効となります。</p>
+    </section>
+
+    <footer>
+        <p>開発者: Yuto（サークル名: LazyGear）</p>
+        <a asp-controller="Home" asp-action="Top" class="command-btn return-btn">
+            <img src="~/images/Home.PNG" alt="Home" class="command-icon" />
+            <span>TOPに戻る</span>
+        </a>
+    </footer>
+</main>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/top.css" />
+}
+
+@section Scripts {
+    <script src="~/js/top.js"></script>
+}

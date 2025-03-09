@@ -39,4 +39,14 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// 開発環境でのみTop画面をスタートアップに設定
+if (app.Environment.IsDevelopment())
+{
+    app.MapGet("/", async context =>
+    {
+        context.Response.Redirect("/Home/Top"); // TopコントローラーのIndexアクションにリダイレクト
+        await Task.CompletedTask;
+    });
+}
+
 app.Run();
