@@ -43,6 +43,11 @@ namespace ThreeLeavesAssort.Controllers
             return View();
         }
 
+        public IActionResult AboutMe()
+        {
+            return View();
+        }
+
         public IActionResult Scrap()
         {
             return View();

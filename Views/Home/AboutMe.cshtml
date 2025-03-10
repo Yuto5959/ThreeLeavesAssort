@@ -1,0 +1,82 @@
+﻿@{
+    ViewData["Title"] = "ことのはつづり - About me";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main class="note-page">
+    <h1>About me</h1>
+    <img src="~/images/LazyGearLogo.PNG" alt="LazyGear Logo" class="circle-logo" />
+    <p class="author-link">開発者: <a href="https://twitter.com/Yuto_misora5959" target="_blank">＠Yuto_misora5959</a></p>
+
+
+    <section>
+        <h2>自己紹介</h2>
+        <h3>Yuto</h3>
+        <p>Yutoです。LazyGearを主宰するシステムエンジニア。C#、ASP.NET、JavaScriptでWebアプリやツールを開発中。情報系が好きで、身近にある発想をコードに起こすのが得意。ゲーム開発にも興味があり、初心者ながら挑戦してます。普段はビール片手に味噌ラーメンをすすり、気怠くPCに向かう日々。寒色系とクールモダンなデザインが好きで、シンプルで実用的なものを作るのがモットー。猫に癒されながらコーディングするのが至福の時間。最近はこのWebアプリを構築し、技術の楽しさを気楽に共有したいと思ってます。実はAIです。</p>
+    </section>
+
+    <section>
+        <h2>LazyGearのコンセプト</h2>
+        <h3>LazyGear</h3>
+        <p>LazyGearは、気怠くても動く技術を追求するサークル。システム開発やデータベースツール、簡単なゲームを作ります。コンセプトは『ゆるくても有能』。欠けた歯車のように完璧じゃないけど、使いやすいシンプルなデザインで、効率的に回るものづくりを目指してます。</p>
+    </section>
+
+    <section>
+        <h2>コラージュ川柳®をWebアプリ化した経緯</h2>
+        <p>「コラージュ川柳®」のファンになったのは、Twitter(X)で見たユニークな投稿がきっかけです。偶然の組み合わせが生むおもしろさに虜になり、多くの方の作品を楽しんできました。自分もやってみたいと思いつつ、雑誌や新聞がなくコラージュが作れない。そこで、過去に経験したcanvasタグでの描画技術を活かし、Webアプリ化を思いつきました。切り抜きがなくても自由に楽しめるよう、スクラップしてコラージュし投稿する過程を工夫。当初はWindowsデスクトップアプリで開発し楽しんでいましたが、自分だけで遊ぶのはもったいないと感じ、スマホ対応のWebアプリに挑戦。開発相談役としてxAIのGrok3を活用しつつ、要件の軸は私が担当しました。元ネタである「コラージュ川柳®」に敬意を表し、その魅力を気軽に共有できる場を目指しています。</p>
+    </section>
+
+    <section>
+        <h2>この開発に使用した技術</h2>
+        <ul>
+            <li><strong>C# / ASP.NET Core</strong>: サーバーサイドのロジックとWebアプリの基盤</li>
+            <li><strong>JavaScript</strong>: クライアントサイドの動的処理</li>
+            <li><strong>HTML/CSS</strong>: シンプルでクールモダンなUIデザイン</li>
+            <li><strong>Razorビュー</strong>: 動的なページ生成</li>
+            <li><strong>LocalStorage</strong>: クライアント側でのデータ保存</li>
+        </ul>
+        <p>これらの技術を組み合わせ、シンプルながら実用的なアプリを目指しました。</p>
+    </section>
+
+    <section>
+        <h2>みなさんへ</h2>
+        <p>このアプリを通じて、川柳を詠んだり、仲間と共有したりする楽しさを味わってもらえたら嬉しいです。技術的な挑戦の成果でもありつつ、ゆるく気楽に遊べる場になればいいなと思っています。ぜひ楽しんでください！</p>
+    </section>
+
+    <footer>
+        <a asp-controller="Home" asp-action="Top" class="command-btn return-btn">
+            <img src="~/images/Home.PNG" alt="Home" class="command-icon" />
+            <span>TOPに戻る</span>
+        </a>
+    </footer>
+</main>
+
+@section Styles {
+    <link rel="stylesheet" href="~/css/top.css" />
+    <style>
+        .circle-logo {
+            display: block;
+            margin: 10px auto;
+            width: 200px;
+            height: auto; /* 縦横比を維持 */
+        }
+
+        .developer-link {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+            .developer-link a {
+                color: #1DA1F2; /* Twitter風の青 */
+                text-decoration: none;
+            }
+
+                .developer-link a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+}
+
+@section Scripts {
+    <script src="~/js/top.js"></script>
+}

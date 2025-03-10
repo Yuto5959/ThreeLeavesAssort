@@ -11,14 +11,12 @@ body {
     color: #333;
     min-height: 100vh;
     font-size: 14px;
-    margin: 0;
 }
 
 /* ヘッダー（上部固定） */
 .app-header {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 10px;
     background: #f5f5e6;
@@ -33,7 +31,6 @@ body {
     display: flex;
     align-items: center;
     gap: 5px;
-    text-align: center;
 }
 
 .app-logo {
@@ -46,7 +43,7 @@ body {
     color: #333;
 }
 
-/* ハンバーガーメニュー（左上固定） */
+/* ハンバーガーメニュー */
 .menu-toggle {
     position: absolute;
     left: 10px;
@@ -58,7 +55,6 @@ body {
     z-index: 1001;
 }
 
-/* メニュー（左上に展開、スマホ向けに大きく） */
 .menu {
     display: none;
     background: #fff;
@@ -89,17 +85,17 @@ body {
                 text-decoration: none;
                 color: #333;
                 font-size: 16px;
-                display: block;
                 padding: 5px 10px;
+                display: block;
             }
 
-/* コンテナ（ヘッダーの下に配置） */
+/* コンテナ */
 .container {
-    width: 100%;
     padding: 60px 10px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 /* メインエリア */
@@ -108,11 +104,10 @@ main {
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
     max-width: 600px;
+    width: 100%;
 }
 
 .center-panel {
@@ -126,7 +121,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* 以下は元のスタイルを維持（省略可） */
+/* ボタンと選択エリア */
 .selection-area {
     display: flex;
     flex-direction: column;
@@ -165,7 +160,6 @@ main {
 .random-icon {
     width: 14px;
     height: 14px;
-    display: block;
 }
 
 .compose-btn {
@@ -198,16 +192,19 @@ main {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
-    text-decoration: none;
     color: #333;
     text-align: center;
+    text-decoration: none;
     transition: transform 0.1s;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-
+    .command-btn a {
+        text-decoration: none;
+        color: #333;
+    }
     .command-btn:hover {
         transform: scale(1.05);
     }
@@ -222,7 +219,6 @@ main {
     display: none;
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -241,7 +237,6 @@ main {
     border-radius: 8px;
     width: 90%;
     max-width: 300px;
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -259,11 +254,11 @@ main {
 }
 
 .modal-content h2 {
-    margin-bottom: 15px;
     font-size: 20px;
+    margin-bottom: 15px;
 }
 
-.modal-content p {
+.modal-content p, .modal-content ul li {
     font-size: 14px;
     margin-bottom: 10px;
 }
@@ -271,20 +266,13 @@ main {
 .modal-content .note {
     font-size: 12px;
     color: #666;
-    margin-top: -5px;
-    margin-bottom: 10px;
+    margin: -5px 0 10px;
 }
 
 .modal-content ul {
     list-style-type: disc;
     padding-left: 20px;
-    margin-bottom: 10px;
 }
-
-    .modal-content ul li {
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
 
 .modal-content a {
     color: #4caf50;
@@ -336,7 +324,7 @@ main {
     }
 
 /* 利用規約ページ */
-.terms-page {
+.note-page {
     background: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -344,129 +332,100 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-    .terms-page h1 {
+    .note-page h1 {
         font-size: 24px;
         margin-bottom: 10px;
         text-align: center;
     }
 
-    .terms-page .last-updated {
+    .note-page .last-updated {
         font-size: 12px;
         color: #666;
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .terms-page section {
+    .note-page section {
         margin-bottom: 20px;
     }
 
-    .terms-page h2 {
+    .note-page h2 {
         font-size: 18px;
         margin-bottom: 10px;
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
     }
 
-    .terms-page p {
+    .note-page p, .note-page ul li {
         font-size: 14px;
         line-height: 1.6;
         margin-bottom: 10px;
     }
 
-    .terms-page ul {
+    .note-page ul {
         list-style-type: disc;
         padding-left: 20px;
-        margin-bottom: 10px;
     }
 
-        .terms-page ul li {
-            font-size: 14px;
-            line-height: 1.6;
-            margin-bottom: 5px;
-        }
-
-    .terms-page footer {
+    .note-page footer {
         text-align: center;
         font-size: 12px;
         color: #666;
         margin-top: 20px;
     }
 
-/* TOPに戻るボタン専用スタイル */
+/* TOPに戻るボタン */
 .return-btn {
     margin: 20px auto;
     max-width: 200px;
 }
 
 /* Sourceページ */
-.source-page {
+.note-page .content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-    .source-page .content {
-        max-width: 800px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.note-page .summary, .note-page .details {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.note-page .details {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.note-page .toggle-btn {
+    padding: 8px 15px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-bottom: 10px;
+}
+
+    .note-page .toggle-btn:hover {
+        background: #e0e0e0;
     }
 
-    .source-page h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        color: #333;
+.note-page .link a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+    .note-page .link a:hover {
+        text-decoration: underline;
     }
-
-    .source-page h2 {
-        font-size: 18px;
-        margin: 20px 0 10px;
-        color: #333;
-        border-bottom: 1px solid #ddd;
-        padding-bottom: 5px;
-    }
-
-    .source-page .summary {
-        font-size: 14px;
-        line-height: 1.6;
-        margin-bottom: 15px;
-        color: #333;
-    }
-
-    .source-page .details {
-        font-size: 14px;
-        line-height: 1.6;
-        margin-bottom: 15px;
-        color: #333;
-        padding: 10px;
-        background: #f9f9f9;
-        border-radius: 5px;
-    }
-
-    .source-page .toggle-btn {
-        padding: 8px 15px;
-        background: #f0f0f0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        font-size: 14px;
-        cursor: pointer;
-        transition: background 0.2s;
-        margin-bottom: 10px;
-    }
-
-        .source-page .toggle-btn:hover {
-            background: #e0e0e0;
-        }
-
-    .source-page a {
-        color: #0066cc;
-        text-decoration: none;
-    }
-
-        .source-page a:hover {
-            text-decoration: underline;
-        }
 
 /* メディアクエリ */
 @media (min-width: 768px) {
@@ -516,10 +475,6 @@ main {
         padding: 20px;
         max-width: 300px;
         gap: 15px;
-    }
-
-    .selection-area {
-        gap: 10px;
     }
 
     .select-btn {
@@ -586,55 +541,41 @@ main {
         font-size: 16px;
     }
 
-    .terms-page h1 {
+    .note-page h1 {
         font-size: 28px;
         margin-bottom: 15px;
     }
 
-    .terms-page .last-updated {
+    .note-page .last-updated {
         font-size: 14px;
         margin-bottom: 25px;
     }
 
-    .terms-page h2 {
+    .note-page h2 {
         font-size: 20px;
         margin-bottom: 15px;
     }
 
-    .terms-page p, .terms-page ul li {
+    .note-page p, .note-page ul li {
         font-size: 16px;
         line-height: 1.8;
     }
 
-    .terms-page section {
+    .note-page section {
         margin-bottom: 30px;
     }
 
-    .terms-page footer {
+    .note-page footer {
         font-size: 14px;
         margin-top: 30px;
     }
 
-    .source-page .content {
-        padding: 30px;
-    }
-
-    .source-page h1 {
-        font-size: 28px;
-        margin-bottom: 25px;
-    }
-
-    .source-page h2 {
-        font-size: 20px;
-        margin: 25px 0 15px;
-    }
-
-    .source-page .summary, .source-page .details {
+    .note-page .summary, .note-page .details {
         font-size: 16px;
         line-height: 1.8;
     }
 
-    .source-page .toggle-btn {
+    .note-page .toggle-btn {
         padding: 10px 20px;
         font-size: 16px;
     }
