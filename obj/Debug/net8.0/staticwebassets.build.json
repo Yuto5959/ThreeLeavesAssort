@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aPxS1EHZimhdvPBGdfBQcmRezrzfKfrho3o5z8k8eck=",
+  "Hash": "Lhve9v/Ov9gRrdFR29/efgsCPnZw6u3DQUfXoVayoPQ=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jdw3u28xwg",
-      "Integrity": "WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=",
+      "Fingerprint": "6d5qaecmmx",
+      "Integrity": "qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -122,6 +122,27 @@
       "OriginalItemSpec": "wwwroot\\images\\AppImage.PNG"
     },
     {
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Cut.PNG",
+      "SourceId": "ThreeLeavesAssort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
+      "BasePath": "_content/ThreeLeavesAssort",
+      "RelativePath": "images/Cut#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dqbc5ah8d4",
+      "Integrity": "ZWOCHhy1QsEQDAFOzj6be1n0bNGUltm9R9hFiHcbM0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cut.PNG"
+    },
+    {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Forum.PNG",
       "SourceId": "ThreeLeavesAssort",
       "SourceType": "Discovered",
@@ -162,6 +183,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Home.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\LazyGearLogo.PNG",
+      "SourceId": "ThreeLeavesAssort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
+      "BasePath": "_content/ThreeLeavesAssort",
+      "RelativePath": "images/LazyGearLogo#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lia0l50q1w",
+      "Integrity": "w+GcdOUD5witTbLHLGroMhMdMvbsJZlEXb5ZDntN1Qo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\LazyGearLogo.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Leaves.PNG",
+      "SourceId": "ThreeLeavesAssort",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\",
+      "BasePath": "_content/ThreeLeavesAssort",
+      "RelativePath": "images/Leaves#[.{fingerprint}]?.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dfj3k7h16d",
+      "Integrity": "GeX1XR0HBHl8FgM7YnR5vd8cIMqxOkVLhPJsoNaZ2nk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Leaves.PNG"
     },
     {
       "Identity": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Random.PNG",
@@ -1447,6 +1510,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/index.6d5qaecmmx.css",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\css\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 03:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6d5qaecmmx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c="
+        }
+      ]
+    },
+    {
       "Route": "css/index.css",
       "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\css\\index.css",
       "Selectors": [],
@@ -1457,7 +1565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2360"
+          "Value": "3933"
         },
         {
           "Name": "Content-Type",
@@ -1465,11 +1573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=\""
+          "Value": "\"qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:49:50 GMT"
+          "Value": "Mon, 10 Mar 2025 03:00:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1479,52 +1587,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I="
-        }
-      ]
-    },
-    {
-      "Route": "css/index.jdw3u28xwg.css",
-      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\css\\index.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2360"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:49:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jdw3u28xwg"
-        },
-        {
-          "Name": "label",
-          "Value": "css/index.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WVOoruFkkHy3H1bcAxBYMblzrqfPdrlGqt30Lck1Y7I="
+          "Value": "sha256-qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c="
         }
       ]
     },
@@ -1693,6 +1756,88 @@
       ]
     },
     {
+      "Route": "images/Cut.dqbc5ah8d4.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Cut.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWOCHhy1QsEQDAFOzj6be1n0bNGUltm9R9hFiHcbM0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 03:50:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dqbc5ah8d4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Cut.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWOCHhy1QsEQDAFOzj6be1n0bNGUltm9R9hFiHcbM0Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/Cut.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Cut.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13389"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZWOCHhy1QsEQDAFOzj6be1n0bNGUltm9R9hFiHcbM0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 03:50:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZWOCHhy1QsEQDAFOzj6be1n0bNGUltm9R9hFiHcbM0Y="
+        }
+      ]
+    },
+    {
       "Route": "images/Forum.2t10nf0nx3.PNG",
       "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Forum.PNG",
       "Selectors": [],
@@ -1853,6 +1998,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-tfouz9OMs6P8QsIpxhcRUQRQw06/40YkNkpkTmhw7fQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/LazyGearLogo.lia0l50q1w.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\LazyGearLogo.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+GcdOUD5witTbLHLGroMhMdMvbsJZlEXb5ZDntN1Qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:19:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lia0l50q1w"
+        },
+        {
+          "Name": "label",
+          "Value": "images/LazyGearLogo.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w+GcdOUD5witTbLHLGroMhMdMvbsJZlEXb5ZDntN1Qo="
+        }
+      ]
+    },
+    {
+      "Route": "images/LazyGearLogo.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\LazyGearLogo.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28437"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w+GcdOUD5witTbLHLGroMhMdMvbsJZlEXb5ZDntN1Qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 17:19:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w+GcdOUD5witTbLHLGroMhMdMvbsJZlEXb5ZDntN1Qo="
+        }
+      ]
+    },
+    {
+      "Route": "images/Leaves.dfj3k7h16d.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Leaves.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GeX1XR0HBHl8FgM7YnR5vd8cIMqxOkVLhPJsoNaZ2nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 03:50:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dfj3k7h16d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Leaves.PNG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GeX1XR0HBHl8FgM7YnR5vd8cIMqxOkVLhPJsoNaZ2nk="
+        }
+      ]
+    },
+    {
+      "Route": "images/Leaves.PNG",
+      "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\images\\Leaves.PNG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GeX1XR0HBHl8FgM7YnR5vd8cIMqxOkVLhPJsoNaZ2nk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Mar 2024 03:50:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GeX1XR0HBHl8FgM7YnR5vd8cIMqxOkVLhPJsoNaZ2nk="
         }
       ]
     },

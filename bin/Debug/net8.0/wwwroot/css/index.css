@@ -6,6 +6,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1B5E20; /* ダークグリーンでクールなベース */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -18,9 +19,10 @@ body {
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.05); /* 微透明でモダンな雰囲気 */
     border-radius: 10px;
+    margin: 0 auto; /* 左右中央揃え */
 }
 
-.logo {
+.app-logo {
     width: 100%;
     max-width: 500px;
     height: auto;
@@ -66,22 +68,80 @@ body {
     }
 
 .error-box {
-    color: #FF7043; /* コーラルでポップかつ目立つ */
-    font-size: 18px; /* 少し大きくして視認性アップ */
-    font-weight: bold; /* 太字で強調 */
-    margin-top: 15px;
-    padding: 10px 15px; /* 余白でボックス感を */
-    background-color: #E0E0E0;
+    color: #FF7043; /* コーラルでポップだが控えめに */
+    font-size: 12px; /* 小さくしてさりげなく */
+    font-weight: normal; /* 太字を解除 */
+    margin-top: 10px;
+    padding: 8px 12px; /* 余白を少し減らす */
+    background-color: #FFF3E0; /* 薄いオレンジで控えめ */
     border-radius: 5px; /* 角丸でモダンに */
-    border: 1px solid #FF7043; /* コーラルの枠線で統一感 */
+    border: 1px solid #FFAB91; /* 薄いコーラル枠線 */
+    width: 60%; /* 開始ボタンより狭く */
+    margin-left: auto;
+    margin-right: auto; /* 中央揃え */
+    box-sizing: border-box;
+    text-align: center;
 }
 
+/* サークルロゴとpresented byテキスト（フォームの下に配置） */
+.logo-section {
+    text-align: center; /* 左右中央揃え */
+    margin-top: 40px; /* 認証コード入力欄と開始ボタンから間を開ける */
+    padding: 0 20px; /* 左右の余白 */
+}
+
+.circle-icon {
+    width: 100px; /* ご提案のサイズを採用 */
+    height: auto;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.presented-text {
+    font-size: 12px;
+    color: #FFFFFF; /* テキストを白に */
+    vertical-align: middle;
+}
+
+/* スマホ向け（最大幅600pxまで） */
 @media only screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .app-logo {
+        max-width: 400px;
+        margin-bottom: 15px;
+    }
+
     .input-field {
         width: 90%;
+        padding: 12px;
+        font-size: 16px;
     }
 
     .start-button {
         width: 90%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .error-box {
+        font-size: 10px; /* スマホでも小さく */
+        padding: 6px 10px;
+        width: 70%; /* スマホでも開始ボタンより狭く */
+    }
+
+    .logo-section {
+        margin-top: 30px; /* スマホで少し間隔を縮める */
+        padding: 0 15px;
+    }
+
+    .circle-icon {
+        width: 80px; /* スマホで少し縮小 */
+    }
+
+    .presented-text {
+        font-size: 10px;
     }
 }

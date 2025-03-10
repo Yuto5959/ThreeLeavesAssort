@@ -14,15 +14,20 @@
 </head>
 <body>
     <div class="container">
-        <img src="/images/TopLogo.PNG" alt="ThreeLeavesAssort Logo" class="logo" />
+        <img src="/images/TopLogo.PNG" alt="ThreeLeavesAssort Logo" class="app-logo" />
         <form method="post" action="/Home/Authenticate">
             <input type="password" name="Passcode" class="input-field" placeholder="認証コード" required />
             <button type="submit" class="start-button">開始</button>
         </form>
         @if (ViewBag.Error != null)
         {
-            <p class="error-box">@ViewBag.Error</p> <!-- クラスを error から error-box に変更 -->
+            <p class="error-box">@ViewBag.Error</p>
         }
+    </div>
+    <!-- サークルロゴとpresented byテキスト（フォームの下に配置） -->
+    <div class="logo-section">
+        <img src="~/images/LazyGearLogo.PNG" alt="LazyGear Logo" class="circle-icon" style="width: 100px; height: auto; object-fit: contain; vertical-align: middle;" />
+        <span class="presented-text">presented by LazyGear</span>
     </div>
 </body>
 </html>

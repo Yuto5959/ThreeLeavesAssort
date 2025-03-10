@@ -131,3 +131,6 @@ C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\obj\Debug\net8.0\ThreeLea.3FD2603F.Up2Date
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Cut.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\Leaves.PNG
+C:\Users\kana\source\repos\ThreeLeavesAssort\ThreeLeavesAssort\bin\Debug\net8.0\wwwroot\images\LazyGearLogo.PNG
