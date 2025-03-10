@@ -86,7 +86,7 @@ body {
 /* サークルロゴとpresented byテキスト（フォームの下に配置） */
 .logo-section {
     text-align: center; /* 左右中央揃え */
-    margin-top: 40px; /* 認証コード入力欄と開始ボタンから間を開ける */
+    margin-top: 20px; /* 認証コード入力欄と開始ボタンに近づける */
     padding: 0 20px; /* 左右の余白 */
 }
 
@@ -103,7 +103,7 @@ body {
     vertical-align: middle;
 }
 
-/* スマホ向け（最大幅600pxまで） */
+/* タブレット以下（600pxまで）の調整 */
 @media only screen and (max-width: 600px) {
     .container {
         padding: 15px;
@@ -133,7 +133,7 @@ body {
     }
 
     .logo-section {
-        margin-top: 30px; /* スマホで少し間隔を縮める */
+        margin-top: 15px; /* スマホでさらに近づける */
         padding: 0 15px;
     }
 
@@ -143,5 +143,48 @@ body {
 
     .presented-text {
         font-size: 10px;
+    }
+}
+
+/* iPhone 8 (幅375px) 以下の特定調整 */
+@media only screen and (max-width: 375px) {
+    .container {
+        padding: 10px;
+    }
+
+    .app-logo {
+        max-width: 300px; /* さらに縮小 */
+        margin-bottom: 10px;
+    }
+
+    .input-field {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .start-button {
+        width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .error-box {
+        font-size: 10px;
+        padding: 5px 8px;
+        width: 70%;
+    }
+
+    .logo-section {
+        margin-top: 10px; /* iPhone 8でさらに近づける */
+        padding: 0 10px;
+    }
+
+    .circle-icon {
+        width: 70px; /* さらに縮小 */
+    }
+
+    .presented-text {
+        font-size: 9px;
     }
 }

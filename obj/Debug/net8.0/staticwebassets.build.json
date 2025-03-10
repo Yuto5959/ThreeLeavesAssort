@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lhve9v/Ov9gRrdFR29/efgsCPnZw6u3DQUfXoVayoPQ=",
+  "Hash": "Dtm5pgvhtwIDshDb1P47Egcme/xsfoOTwk9TAp15LsA=",
   "Source": "ThreeLeavesAssort",
   "BasePath": "_content/ThreeLeavesAssort",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6d5qaecmmx",
-      "Integrity": "qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=",
+      "Fingerprint": "6cnfwulknj",
+      "Integrity": "5svqn9rAZqQ3Jj15w29BdLTXkAO3zbvUMxt/8IDgo2U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
@@ -1510,7 +1510,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/index.6d5qaecmmx.css",
+      "Route": "css/index.6cnfwulknj.css",
       "AssetFile": "C:\\Users\\kana\\source\\repos\\ThreeLeavesAssort\\ThreeLeavesAssort\\wwwroot\\css\\index.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1520,7 +1520,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3933"
+          "Value": "4737"
         },
         {
           "Name": "Content-Type",
@@ -1528,11 +1528,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=\""
+          "Value": "\"5svqn9rAZqQ3Jj15w29BdLTXkAO3zbvUMxt/8IDgo2U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 03:00:11 GMT"
+          "Value": "Mon, 10 Mar 2025 04:58:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1542,7 +1542,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6d5qaecmmx"
+          "Value": "6cnfwulknj"
         },
         {
           "Name": "label",
@@ -1550,7 +1550,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c="
+          "Value": "sha256-5svqn9rAZqQ3Jj15w29BdLTXkAO3zbvUMxt/8IDgo2U="
         }
       ]
     },
@@ -1565,7 +1565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3933"
+          "Value": "4737"
         },
         {
           "Name": "Content-Type",
@@ -1573,11 +1573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c=\""
+          "Value": "\"5svqn9rAZqQ3Jj15w29BdLTXkAO3zbvUMxt/8IDgo2U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 03:00:11 GMT"
+          "Value": "Mon, 10 Mar 2025 04:58:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1587,7 +1587,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qh9gPquJqDAFVvB/TZNa4JvjlvhAO+JYkq4oLdFQd+c="
+          "Value": "sha256-5svqn9rAZqQ3Jj15w29BdLTXkAO3zbvUMxt/8IDgo2U="
         }
       ]
     },
